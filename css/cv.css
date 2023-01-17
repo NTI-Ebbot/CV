@@ -1,0 +1,144 @@
+body {
+    background-color: #606060;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+a {
+    color: wheat;
+}
+
+td {
+    margin: 32px;
+}
+
+ul, li {
+    margin: 40px 0 0 0;
+}
+
+ul {
+    list-style: none;
+}
+
+#main {
+    max-width: 800px;
+    height: 98vh;
+    margin: auto;
+    background-color: #252525;
+}
+
+#main-menu {
+    max-width: 200px;
+    height: 80vh;
+    background-color: #303030;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-top: 10px;
+}
+
+#menu {
+    height: 40vh;
+    max-width: 200px;
+    position: absolute;
+    left: 350px;
+    top: 0px;
+    display: none;
+    border: none;
+}
+
+a.white {
+    color: white;
+    text-decoration: none;
+}
+
+#main > div, table {
+    padding: 28px 56px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#small {
+    font-size: small;
+    font-weight: lighter;
+}
+
+#big {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#postisper {
+    position: relative;
+    left: 72px;
+}
+
+#middle-space {
+    height: 130px;
+}
+
+#button {
+    background-color: transparent;
+    border: none;
+}
+
+.flexbox {
+    max-width: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.flexbox {
+    max-width: inherit;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.menu-button {
+    position: relative;
+    left: 20px;
+    top: 12px;
+}
+
+.redacted {
+    background-color: black;
+    color: black;
+}
+
+.inline {
+    display: inline;
+}
+
+.position-relative {
+    position: relative;
+}
+
+
+.move-right {
+    position: relative;
+    left: 40px;
+}
+
+.move-righter {
+    position: relative;
+    left: 90px;
+}
+
+.move-down {
+    position: relative;
+    top: 55px;
+}
+
+.move-up {
+    position: relative;
+    bottom: 30px;
+}
+
+.move-left {
+    position: relative;
+    right: 40px;
+}

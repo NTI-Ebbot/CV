@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index - Ebbot Andersson</title>
+    <link rel="stylesheet" href="..\css\cv.css">
+    <script>
+        function showMenu() {
+        var menu = document.getElementById("menu");
+        if (menu.style.display === "none") {
+            menu.style.display = "block";
+        } else {
+            menu.style.display = "none";
+        }
+}
+    </script>
+</head>
+<body>
+    <div id="main">
+       <button id="button" onclick="showMenu()"><img class="menu-button" src="..\images\Hamburger_icon.svg.png" alt="" width="48px" height="48px" ></button>
+       <iframe src="menu.html" frameborder="0" id="menu"></iframe>
+        <table>
+            <tr>
+                <td><h1>Ebbot Andersson</h1>
+                    <p>På den här sidan kan ni läsa lite <a href="aboutme.html">om mig</a>, min <a href="education.html">utbildning</a>,och vilka som <a href="inspirations.html">inspirerar</a> mig.</p>
+                </td>
+                <td>
+                    <img src="..\images\roomtour.png" alt="" width="258px" height="236px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="middle-space"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>Kontakta mig<span id="small">(jag kommer inte läsa det)</span></h1>
+                    <p>ebbot.<span class="redacted">     </span>@gmail.com<br/>072<span class="redacted">      </span><br/>Skil<span class="redacted">             Göteborg 41480</span></p>
+                </td>
+                <td>
+                    <img src="..\images\postisper.jpg" alt="" width="275px" height="163px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                        <form>
+                            <label for="comment">Kommentarer</label><br>
+                            <input type="text" id="comment" name="comment"><br>
+                            <input type="submit">
+                        </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

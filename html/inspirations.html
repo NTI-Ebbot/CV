@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspirations - Ebbot Andersson</title>
+    <link rel="stylesheet" href="..\css\cv.css">
+    <script>
+        function showMenu() {
+        var x = document.getElementById("menu");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+}
+    </script>
+</head>
+<body>
+    <div id="main">
+        <button id="button" onclick="showMenu()"><img class="menu-button" src="..\images\Hamburger_icon.svg.png" alt="" width="48px" height="48px" ></button>
+        <iframe src="menu.html" frameborder="0" id="menu"></iframe>
+        <table>
+            <tr>
+                <td>
+                    <h1>Inspiration</h1><br/>
+                    <p><span id="big">Dalai Lama</span><br/>Stor insperation. Han lyser upp allt och alla <br/>omkring sig. Frälser alla i hans närhet med <br/>sin närvaro.</p>
+                </td>
+                <td>
+                    <img src="..\images\dalailama.jpg" alt="" width="201px" height="270px" class=" move-righter">
+                </td>
+            </tr>
+            <tr class="move-down">
+                <td>
+                    <img src="..\images\terrydavis.jpg" alt="" width="360px" height="173px">
+                </td>
+                <td>
+                    <p class="move-right">
+                        <span id="big">Terry A. Davis</span><br/>Trots alla hans motgångar uppnådde <br/>han någonting enastående. När det <br/>kändes som att allting var emot honom <br/>forsatte han bara arbeta mot sin dröm <br/>och sitt mål. 
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
